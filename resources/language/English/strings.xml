@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <string id="32000"></string>
+  <string id="32001">Play Settings</string>
+  <string id="32002">Action</string>
+  <string id="32003">Show Previews</string>
+  <string id="32004">Play Fullscreen</string>
+  <string id="32005">Play All Cameras</string>
+  <string id="32006">Camera To Play</string>
+  <string id="32007">Show PTZ Controls</string>
+
+  <string id="32011">Camera 1</string>
+  <string id="32012">Camera 2</string>
+  <string id="32013">Camera 3</string>
+  <string id="32014">Camera 4</string>
+  <string id="32015">Camera 5</string>
+  <string id="32016">Camera 6</string>
+</strings>
+
+

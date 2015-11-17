@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="32001">
+		<setting label="32002" type="labelenum" id="type" lvalues="32003|32004|32005" default="0" />
+			<setting label="32011" type="bool" id="camera1" default="true" subsetting="true" />
+			<setting label="32012" type="bool" id="camera2" default="false" subsetting="true" />
+			<setting label="32013" type="bool" id="camera3" default="false" subsetting="true" />
+			<setting label="32014" type="bool" id="camera4" default="false" subsetting="true" />
+			<setting label="32015" type="bool" id="camera5" default="false" subsetting="true" />
+			<setting label="32016" type="bool" id="camera6" default="false" subsetting="true" />
+			
+			<setting label="32006" type="labelenum" id="camera" lvalues="32011|32012|32013|32014|32015|32016" default="0" subsetting="true" />
+			<setting label="32007" type="bool" id="controls" default="true" subsetting="true" />
+	
+    </category>
+</settings>
