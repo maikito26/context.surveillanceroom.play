@@ -1,3 +1,7 @@
+v1.0.2 (Nov 16 2015)
+-------------------
+- Opens settings on first time use
+
 v1.0.1 (Nov 16 2015)
 -------------------
 - Working Release
