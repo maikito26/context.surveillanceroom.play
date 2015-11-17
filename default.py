@@ -10,9 +10,14 @@ if __name__ == "__main__":
     
     _type = __addon__.getSetting('type')
     if _type == PREVIEW:
+        x = 0
         for camera_number in "123456":
             if __addon__.getSetting('camera%s' %camera_number) == 'true':
                 xbmc.executebuiltin('RunPlugin(plugin://plugin.video.surveillanceroom?action=show_preview&camera_number=%s)' %camera_number)
+                x += 1
+
+        if x == 0:
+            __addon__.openSettings()
  
     elif _type == SINGLECAMERA:
         camera_number = int(__addon__.getSetting('camera')) + 1
